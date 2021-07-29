@@ -53,7 +53,7 @@ a {
     height: 89vh;
     /* border: 2px solid red; */
     border-top: 2px solid black;
-    background: rgba(0, 0, 0, 0.75) url('../folder/img1.jpeg');
+    background: rgba(0, 0, 0, 0.75) url('./folder/img1.jpeg');
     background-size: cover;
     background-blend-mode: darken;
     color: white;

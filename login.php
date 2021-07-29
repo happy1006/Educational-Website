@@ -97,7 +97,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
     </nav> -->
 
     <nav class="navbarrr">
-        <div class="logoo"><a href="./index.html"><img src="../folder/img9.jpg" alt="logo can't be loaded"></a></div>
+        <div class="logoo"><a href="./index.html"><img src="./folder/img9.jpg" alt="logo can't be loaded"></a></div>
         <ul class="navvv-list">
             <li><a href="./home.html">Home</a></li>
             <li><a href="./about.html">About</a></li>

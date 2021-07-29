@@ -41,7 +41,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
 
 <body>
     <nav class="navbar">
-        <div class="logo"><a href="./index.html"><img src="../../folder/img9.jpg" alt="logo can't be loaded"></a></div>
+        <div class="logo"><a href="./index.html"><img src="../folder/img9.jpg" alt="logo can't be loaded"></a></div>
         <ul class="nav-list">
             <li>
                 <a href="../home.html">Home</a>
