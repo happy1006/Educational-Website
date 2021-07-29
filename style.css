@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta&family=Pacifico&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo img{
+    width: 75px;
+    border: 2.5px solid white;
+    border-radius: 50%;
+    margin-left: 25px;
+}
+
+.logo{
+    /* border: 5px solid blue;  */
+    /* display: flex; */
+    /* width: 5px; */
+    /*justify-content: center;
+    align-items: center;*/
+}
+
+body{
+    /* border: 2px solid yellow; */
+}
+
+.navbar{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    /* height: 50%; */
+}
+
+.nav-list{
+    /* border: 2px solid green; */
+    display: flex;
+    direction: row;
+    width: 100%;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.nav-list li{
+    /* border: 2px solid orange; */
+    margin: 0 25px;
+    font-size: 25px;
+    padding-top: 25px;
+    /* font-family: 'Lexend Zetta', sans-serif; */
+    font-family: 'Pacifico', cursive;
+}
+
+.nav-list li a{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+.first-section{
+    /* border: 2px solid red; */
+    /* height: 50%; */
+}
+
+.box-main{
+    /* border: 2px solid yellow; */
+    height: 88vh;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    /* justify-content: center; */
+    background: rgba(0, 0, 0, 0.75) url('../folder/img1.jpeg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.firsthalf{
+    /* border: 10px solid red; */
+    margin: 250px;
+    width: 67%;
+    margin-top: 225px;
+}
+
+.big1{
+    /* border: 2px solid black; */
+    font-family: 'Pacifico', cursive;
+    font-size: 23px;
+    color: white;
+}
+
+.big2{
+    /* border: 2px solid black; */
+    font-family: 'Pacifico', cursive;
+    font-size: 23px;
+    padding: 0 187px;
+    color: white;
+}
+
+.small1{
+    /* border: 2px solid blue; */
+    font-family: 'Pacifico', cursive;
+    font-size: 23px;
+    color: white;
+}
+
+.small2{
+    /* border: 2px solid blue; */
+    font-family: 'Pacifico', cursive;
+    font-size: 23px;
+    padding: 0 375px;
+    color: white;
+}
+
+.box-main-2{
+    /* border: 3px solid yellow; */
+    height: 850px;
+    /* background-color: rgb(92, 89, 89); */
+    background: rgba(0, 0, 0, 0.8) url('../folder/img1.jpeg');
+    background-size: cover;
+    background-blend-mode: darken;
+    display: flex;
+    flex-direction: column;
+}
+
+.secondhalf1{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    height: 246px;
+    margin-top: 50px;
+}
+
+.secondhalf2{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row-reverse;
+    height: 246px;
+    margin-top: 50px;
+}
+
+.secondhalf3{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    height: 246px;
+    margin-top: 50px;
+}
+
+.text1{
+    /* border: 2px solid yellow; */
+    width: 60%;
+    font-family: 'Pacifico', cursive;
+    font-size: 23px;
+    color: white;
+    padding: 35px 107px;
+}
+
+.image1{
+    padding-top: 30px;
+}
+
+.image3{
+    padding-top: 10px;
+}
+
+.secondhalf1 img{
+    /* border: 2px solid white; */
+    border-radius: 90px;
+    width: 275px;
+    height: 175px;
+}
+
+.secondhalf2 img{
+    /* border: 2px solid white; */
+    border-radius: 90px;
+    width: 275px;
+    height: 175px;
+}
+
+.secondhalf3 img{
+    /* border: 2px solid white; */
+    border-radius: 90px;
+    width: 275px;
+    height: 175px;
+}

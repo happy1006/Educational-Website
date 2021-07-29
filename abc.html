@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#{title}</title>
+</head>
+<body>
+    <h2>This is form tutorial</h2>
+    <form action="/about" method="POST" id="contact">
+        <label for="xyz">Name : </label>
+        <div>
+            <input type="text" name="myname" id="xyz">  
+        </div>
+        <div> 
+            <br> Role : <input type="text" name="myrole">
+        </div>
+        <div>
+            <br> Email Id : <input type="email" name="myemail">
+        </div>
+        <div>
+            <br> Date : <input type="date" name="mydate">
+        </div>
+        <div>
+            <br> Roll : <input type="number" name="myroll">
+        </div>
+        <div>
+            <br> Are you Eligible : <input type="checkbox" name="mycheckbox" checked>
+        </div>
+        <div>
+            <br> Gender : Male<input type="radio" name="mygender"> Female<input type="radio" name="mygender"> 
+        </div>
+        <div>
+            <br> Write about yourself : <br><textarea name="mytext"   cols="25" rows="10"></textarea>
+        </div>
+        <div>
+            <br>
+            <label for="carrr">Car :</label>
+            <select name="chinmaya" id="carrr">
+                <option value="bmw">BMW</option>
+                <option value="aud">Audi</option>
+                <option value="mcd" selected>Mercedes</option>
+                
+            </select>
+        <div>
+            <br><input type="submit" value="Submit Now">
+            <input type="reset" value="Reset now">
+        </div>
+    </form>
+</body>
+</html>

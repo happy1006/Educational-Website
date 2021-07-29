@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta&family=Pacifico&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .logo img {
+            width: 75px;
+            border: 2.5px solid white;
+            border-radius: 50%;
+            margin-left: 25px;
+        }
+
+        .navbar {
+            /* border: 2px solid red; */
+            display: flex;
+            flex-direction: row;
+            background-color: black;
+            position: sticky;
+            top: 0;
+            /* height: 50%; */
+        }
+
+        .nav-list {
+            /* border: 2px solid green; */
+            display: flex;
+            direction: row;
+            width: 100%;
+            list-style: none;
+            justify-content: space-evenly;
+        }
+
+        .nav-list li {
+            /* border: 2px solid orange; */
+            margin: 0 25px;
+            font-size: 25px;
+            padding-top: 25px;
+            font-family: 'Pacifico', cursive;
+        }
+
+        .nav-list li a {
+            color: white;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .first-section{
+            /* border: 5px solid green; */
+        }
+        .box-main {
+            border: 2px solid black;
+            height: 88vh;
+            /* display: flex; */
+            /* flex-direction: column; */
+            /* align-items: center; */
+            /* justify-content: center; */
+            background: rgba(0, 0, 0, 0.75) url('https://wp.abc-mallorca.com/wp-content/uploads/2016/09/education-mallorca-03.jpg');
+            background-size: cover;
+            background-blend-mode: darken;
+        }
+
+        .firsthalf {
+            /* border: 10px solid red; */
+            margin-left: 125px;
+            margin-top: 100px;
+        }
+
+
+        h1{
+            font-family: 'Pacifico', cursive;
+            font-size: 40px;
+            color: white;
+        }  
+
+        .secondhalf{
+            /* border: 5px solid red; */
+            width: 67%;
+            margin-left: 325px;
+            margin-top: 25px;
+        }     
+
+        .secondhalf p{
+            font-family: 'Pacifico', cursive;
+            font-size: 25px;
+            color: white;
+        }
+
+    </style>
+    <title>Education Website</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo"><a href="./index.html"><img src="../folder/img9.jpg" alt="logo can't be loaded"></a></div>
+        <ul class="nav-list">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./login.php">Login</a></li>
+            <li><a href="register.php">Sign Up</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section class="first-section">
+        <div class="box-main">
+            <div class="firsthalf">
+                <h1>Our Objective :-</h1>
+            </div>
+            <div class="secondhalf">
+                <p>Since, education is for all and so is our objective. This website is an open-source and free for all. So, whether a student is poor or rich, this platform will treat all its students in the same manner. All the students are same for us. Here, we provide live doubt classes so that students who are facing difficulty in any topic can chat with the teacher available and clear their respective doubts. Those who want to contribute in it in any possible way are heartly welcome and their contribution will be really appreciated. At last, student satisfaction is our first priority.....</p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta&family=Pacifico&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo img{
+    width: 75px;
+    border: 2.5px solid white;
+    border-radius: 50%;
+    margin-left: 25px;
+}
+
+.logo1{
+    margin-bottom: 575px;
+    margin-left: 725px;
+    display: block;
+    /* margin: auto; */
+    width: 50px;
+    height: 50px;
+}
+
+
+body{
+     height: 100vh;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    background: rgba(0, 0, 0, 0.75) url('../../folder/img1.jpeg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.navbar{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    /* height: 50%; */
+}
+
+.nav-list{
+    /* border: 2px solid green; */
+    display: flex;
+    direction: row;
+    width: 100%;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.nav-list li{
+    /* border: 2px solid orange; */
+    margin: 0 25px;
+    font-size: 25px;
+    padding-top: 25px;
+    /* font-family: 'Lexend Zetta', sans-serif; */
+    font-family: 'Pacifico', cursive;
+}
+
+.nav-list li a{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+.first-section{
+    /* border: 2px solid red; */
+    /* height: 50%; */
+}
+
+.boxxx-main{
+    /* border: 2px solid yellow; */
+    height: 88vh;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    /* justify-content: center; */
+    background: rgba(0, 0, 0, 0.75) url('../../folder/img1.jpeg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.container{
+    max-width: 955px;
+    border: 2px solid white;
+    border-radius: 13px;
+    margin: auto;
+    height: 60vh;
+    padding: 33px;
+    overflow-y: auto;
+    margin-top: 25px;
+    font-family: 'Pacifico', cursive;
+}
+
+.message{
+    background-color: rgb(211, 204, 204);
+    width: 24%;
+    padding: 10px;
+    margin: 17px 12px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: 'Pacifico', cursive;
+}
+.left{
+    float: left;
+    clear:both;
+}
+
+.right{
+    float: right;
+    clear:both;
+}
+
+#send-container{
+    display:block;
+    margin: auto;
+    text-align: center;
+    max-width: 1085px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    font-family: 'Pacifico', cursive;
+}
+#messageInp{
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+    font-size: 22px;
+    font-family: 'Pacifico', cursive;
+}
+
+.btn{
+    margin: 0 5px;
+    width: 9%;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+    font-family: 'Pacifico', cursive;
+    font-size: 17px;
+}

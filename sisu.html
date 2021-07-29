@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational Website</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta&family=Pacifico&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .contact {
+            background-color: black;
+            height: 835px;
+            /* border: 5px solid red; */
+            display: flex;
+            flex-direction: column;
+        }
+
+        .name {
+            /* border: 2px solid red; */
+            font-family: 'Pacifico', cursive;
+            font-size: 18px;
+            color: white;
+            padding-left: 550px;
+            padding-top: 25px;
+        }
+
+        .std {
+            /* border: 2px solid red; */
+            font-family: 'Pacifico', cursive;
+            font-size: 18px;
+            color: white;
+            padding-left: 550px;
+        }
+
+        .role {
+            /* border: 2px solid yellow; */
+            font-family: 'Pacifico', cursive;
+            font-size: 18px;
+            color: white;
+            padding-left: 550px;
+        }
+
+        .email {
+            /* border: 2px solid yellow; */
+            font-family: 'Pacifico', cursive;
+            font-size: 18px;
+            color: white;
+            padding-left: 550px;
+        }
+
+        .phone {
+            /* border: 2px solid red; */
+            font-family: 'Pacifico', cursive;
+            font-size: 18px;
+            color: white;
+            padding-left: 550px;
+        }
+
+        .city {
+            /* border: 2px solid yellow; */
+            font-family: 'Pacifico', cursive;
+            font-size: 18px;
+            color: white;
+            padding-left: 550px;
+        }
+
+        .state {
+            /* border: 2px solid red; */
+            font-family: 'Pacifico', cursive;
+            font-size: 18px;
+            color: white;
+            padding-left: 550px;
+        }
+
+        .gender {
+            /* border: 2px solid yellow; */
+            font-family: 'Pacifico', cursive;
+            font-size: 18px;
+            color: white;
+            padding-left: 550px;
+        }
+
+        .eligible {
+            /* border: 2px solid green; */
+            font-family: 'Pacifico', cursive;
+            font-size: 18px;
+            color: white;
+            padding-left: 550px;
+        }
+
+        .about {
+            /* border: 2px solid blue; */
+            font-family: 'Pacifico', cursive;
+            font-size: 18px;
+            color: white;
+            padding-left: 550px;
+        }
+
+        .btn {
+            /* border: 2px solid red; */
+            font-family: 'Pacifico', cursive;
+            font-size: 18px;
+            color: white;
+            padding-left: 625px;
+        }
+
+        #xyz,
+        #xyz1,
+        #xyz2,
+        #xyz3,
+        #xyz4,
+        #xyz5,
+        #xyz6 {
+            width: 267px;
+            border-radius: 15px;
+            height: 20px;
+        }
+
+        #xyz7,
+        #xyz8 {
+            width: 25px;
+            height: 15px;
+        }
+
+        #xyz9 {
+            width: 25px;
+        }
+
+        #xyz10 {
+            width: 250px;
+            height: 150px;
+            border-radius: 15px;
+            border: 3px solid black;
+        }
+
+        #xyz11,
+        #xyz13,
+        #xyz14 {
+            border-radius: 15px;
+            width: 125px;
+            font-family: 'Pacifico', cursive;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="/sisu" method="POST" class="contact">
+        <div class="name">
+            Name : <input type="text" name="myname" id="xyz">
+        </div>
+
+        <div class="role">
+            <br> Role : <input type="text" name="myrole" id="xyz1">
+        </div>
+
+        <div class="std">
+            <br> <label for="classs">Class : </label>
+            <select name="mystd" id="classs" id="xyz2">
+                <option value="eleven" id="xyz13" selected>11</option>
+                <option value="twelve" id="xyz14">12</option>
+            </select>
+            <!-- <br> Class : <input type="number" name="myclass"> -->
+        </div>
+
+        <div class="email">
+            <br> Email Id : <input type="email" name="myemail" id="xyz3">
+        </div>
+
+        <div class="phone">
+            <br> Phone Number : <input type="number" name="mynumber" id="xyz4">
+        </div>
+
+        <div class="city">
+            <br> City : <input type="text" name="mycity" id="xyz5">
+        </div>
+
+        <div class="state">
+            <br> State : <input type="text" name="mystate" id="xyz6">
+        </div>
+
+        <div class="gender">
+            <br> Gender : Male<input type="radio" name="mygender" id="xyz7"> Female<input type="radio" name="mygender"
+                id="xyz8">
+        </div>
+
+        <div class="eligible">
+            <br> Are you Eligible : <input type="checkbox" name="mycheckbox" checked id="xyz9">
+        </div>
+
+        <div class="about">
+            <br> Write about yourself : <br><textarea name="mytext" cols="25" rows="10" id="xyz10"></textarea>
+        </div>
+
+        <div class="btn">
+            <button id="xyz11">Submit Now</button>
+        </div>
+    </form>
+    <!-- <script src="./app.js"></script> -->
+</body>
+
+</html>
